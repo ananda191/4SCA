@@ -11,7 +11,7 @@ Authors: Ananda Sutradhar, Masrur Sobhan, Bikhyat Adhikari, and Ananda Mohan Mon
 
 ## Setup
 
-This notebook **(Complete_4SCA.ipynb)** was developed and tested in **Google Colab** using: **Python 3.12.13**
+This notebook **(Complete_4SCA.ipynb)** was developed and tested in **Google Colab** using: **Python 3.13**
 
 
 To run the notebook locally, create a Python environment with version **3.12.13** and install the required packages from **requirements.txt**.
@@ -39,7 +39,7 @@ Two feature selection techniques are applied:
 ANOVA F-test
 Mutual Information
 
-For each feature selection technique, the notebook evaluates different numbers of selected genes, ranging from 300 to 10,000 genes. The selected gene sets are evaluated using the following machine learning models:
+For each feature selection technique, the notebook evaluates different numbers of selected genes, ranging from 300 to 1000 genes. The selected gene sets are evaluated using the following machine learning models:
 
 - AdaBoost
 - Decision Tree
