@@ -29,7 +29,7 @@ Note that: These are sample datasets provided for demonstration purposes. The or
 The notebook divided into four major steps.
 1. Preliminary gene screening
 2. Pareto optimal gene refinement
-3. Interpretable diagnostic biomarker discovery
+3. Interpretable metastasis-associated biomarker discovery
 4. Prognostic verification and clinical translation
 
 ## Step 1 — Preliminary Gene Screening:
@@ -64,7 +64,7 @@ The optimization process is based on two objectives:
 
 The optimized gene subsets are evaluated using 5-fold stratified cross-validation. This step helps reduce the number of genes while maintaining strong classification performance.
 
-## Step 3 — Interpretable Diagnostic Biomarker Discovery:
+## Step 3 — Interpretable Metastasis-associated Biomarker Discovery:
 This step uses the optimized gene subset from Step 2 ('BEST_Subset_from_Step2.csv') The notebook applies SHAP analysis to interpret model predictions and identify the most influential genes.
 
 The top three performing models from Step 2 are considered in this stage. SHAP values are calculated for these models, and genes are ranked according to their contribution to the model predictions. The goal of this step is to identify interpretable diagnostic biomarker candidates from the optimized gene set.
